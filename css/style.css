@@ -1,170 +1,201 @@
-@charset "utf-8"; /* CSS Document */ 
 *{
     padding:0;
     margin:0;
 }
-
 a{
-    color:inherit;
+    color:inherit; 
+    text-decoration:none;
 }
-
+li{
+    list-style:none;
+}
 #wrap{
-    width:320px;}
-
-header{
-    height: 50px;
-    position: relative;
-    background-color:#fff;
-    
-}
-
-header h1{
-    display:block;
-    height: 50px;
-    font-size:0;
-    background-image: url(../img/logo.gif);
-    background-repeat: no-repeat;
-    background-size: 30px auto;
-    background-position: 10px center;
-    
-}
-
-header p{
-    font-size:0;
-}
-
-
-
-header .icon .openMenu a{
-    display: block;
-    background-image: url(../img/icon_menu.jpg);
-    background-repeat: no-repeat;
-   width:30px;
-    height:50px;
-    background-size:25px auto;
-    background-position: 0 center;
-}
-
-header .icon .openSearch a{
-    display: block;
-    background-image: url(../img/icon_sc.png);
-    background-repeat: no-repeat;
-    width:30px;
-    height:50px;
-    background-size:25px auto;
-    background-position: 0 center;
-    
-}
-
-header .icon{
-    position: absolute;
-    right:0;
-    top:0;
-}
-
-header .icon p{
-    float:left;
-    margin-right: 20px;
-    
-}
-
-/* header */
-
-.mainVisual img{ 
     width:320px;
 }
-
-section{
-    border-bottom:10px solid #ccc;
+h1{
+    height: 45px;
+    display:block;
 }
-
-/* mainVisual */
-
-.mainBox{
-    padding-top:20px;
-    padding-bottom:20px;
+.logo{
+    width:35px;
+    height:35px;
+    background-image: url(../img/logo.gif);
+    /* display:block; */
+    background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin : 10px;
 }
-
-.mainBox h2{
-    font-size:1.2em;
-    color:#333;
-    margin-bottom:20px;
-    margin-left:10px;
+.icon{
+    float: left;
+    margin-right: 25px;
 }
-
-
-/* mainBox */
-
-.new{
-    padding-right:5px;
-    padding-left:5px;
+.icons:after{
+    content:"";
+    clear:both; 
+    display:block;
 }
-
-.new .items .row:after{
-    display: block;
-    clear:both;
-    content:'';
+.i1{
+    width:25px;
+    height:40px;
+    background-image: url(../img/icon_sc.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    /* color:#121212; */
 }
-
-.new .items .item{
-    width:140px;
-    height: 215px;
-    float:left;
-    border:1px solid #ddd;
-    margin: 5px 5px;
+.i2{
+    width:25px;
+    height:40px;
+    background-image: url(../img/icon_menu.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
 }
-
-.new .items .item img{
-    width:140px;
-}
-
-.new .item .itemtxt{
-    padding: 15px 10px;
-    
-}
-.new .item .itemtxt .name{
-    color:#333;
-}
-
-.new .item .itemtxt .eng{
-    color:#999;
-}
-
-/* new */
-
-.notice{
+h1{
     position: relative;
 }
-
-.notice .more{
-    display: block;
-    width:20px;
-    font-size:0;
-    background-image: url(../img/more.png);
-    background-repeat: no-repeat;
-    background-size: 15px auto;
+.icons{
     position: absolute;
-    top:20px;
+    top:0px;
+    right:0px;
+}
+.mv{
+    width: 320px;
+    height: 490px;
+    background-image: url(../img/mv01.jpg);
+    /* display:block; */
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.line{
+    width: 320px;
+    height: 10px;
+    background-color: #999999;
+}
+/* ////////////////여기까지 헤더////////////////// */
+.con{
+    padding:20px 8px;
+}
+.con h2{
+    width: 320px;
+    height: 20px;
+    font-size: 16.8px;
+    color:#333333;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.item{
+    float: left;
+    width: 140px;
+    height: 217px;
+    margin:5px;
+    border:solid 1px #999999;
+}
+section:after{
+    content:"";
+    clear:both; 
+    display:block;
+}
+/*  */
+.img1{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item01.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.img2{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item02.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.img3{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item03.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.img4{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item04.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.img5{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item05.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.img6{
+    width: 140px;
+    height: 146.22px;
+    background-image: url(../img/item06.jpg);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+/*  */
+.text{
+    width: 140px;
+    height: 70px;
+    padding: 15px 10px;
+}
+p{
+    font:14px;
+}
+.text p:first-child{
+    color:#333333;
+}
+.text p:last-child{
+    color:#999999;
+}
+/* ////////////////////////여기까지 바디///////////// */
+footer h2{
+    width: 320px;
+    height: 20px;
+    font-size: 16.8px;
+    color:#333333;
+    margin-left: 10px;
+    margin-bottom:20px;
+    position: relative;
+    /* display: block; */
+}
+footer .img{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/more.png);
+    /* background-position: center; */
+    background-size:contain;
+    background-repeat:no-repeat;
+    /* display: block; */
+    position: absolute;
+    top:0px;
     right:15px;
 }
-
-.notice ul{
-    width:300px;
-    margin:0 auto;
+.border{
+    border-top:dotted 1px #999999;
+    padding: 5px 0;
+    margin:0 10px;
+    font-size: 11.5px;
 }
-
-.notice ul li{
-    font-size:0.8em;
-    border-bottom: 1px dotted #ccc;
-    padding-bottom:5px;
-    padding-top:5px;
+.border:last-child{
+    border-bottom:dotted 1px #999999;  
 }
-
-.notice ul li:first-child{
-    border-top: 1px dotted #ccc;
+.ex{
+    padding: 20px 0;
 }
-
-
-
 
 

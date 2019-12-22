@@ -2,100 +2,98 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>StarBucks</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/notosanskr.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>스타벅스</title>
+    <link href="css/notosanskr.css" rel="stylesheet">  <!--구글웹폰트-->
+    <link href="css/reset.css" rel="stylesheet">            <!--초기화-->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="wrap">
+    <div id="wrap">
     <header>
-        <h1>
-            <div class="logo">
-                <!-- <img src="img/logo.gif"> -->
-            </div>
-            <div class="icons">
-                <div class="icon i1"><a href="#">
-                    <!-- <img src="img/icon_sc.png"> -->
-                </a></div>
-                <div class="icon i2"><a href="#">
-                    <!-- <img src="img/icon_menu.jpg"> -->
-                </a></div>
-            </div>
-        </h1>
-        <div class="mv">
-            <!-- <img src="img/mv01.jpg"> -->
+        <h1 class="logo"><a href="#">스타벅스</a></h1>
+        <div class="icon">
+            <p class="openSearch"><a href="#">메뉴열기</a></p>
+            <p class="openMenu"><a href="#">검색창열기</a></p>
         </div>
+
+
+
     </header>
 
-    <content>
+    <section class="mainVisual">
+        <a href="#"><img src="./img/mv01.jpg" alt="mainvisual"></a>
+    </section>
+
+    <section class="mainBox new">
         <h2>신상품</h2>
-        <section>
-            <div class="item">
-                <div class="img1">
-                    <!-- <img src="img/item01.jpg"> -->
+        <ul class="items">
+            <li class="row">
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item01.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">아이스 베리 트윙</p>
+                        <p class="eng">Iced Berry</p>
+                    </div></a>
                 </div>
-                <div class="text">
-                    <p>아이스 베리 트윙</p>
-                    <p>Iced Berry</p>
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item02.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">아이스 토피 넛 크</p>
+                        <p class="eng">Iced Toffee Nut</p>
+                    </div></a>
                 </div>
-            </div>
-            <div class="item">
-                <div class="img2">
-                    <!-- <img src="img/item02.jpg"> -->
+            </li>
+
+            <li class="row">
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item03.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">베리 트윙클 모카</p>
+                        <p class="eng">Berry Twinkle</p>
+                    </div></a>
                 </div>
-                <div class="text">
-                    <p>아이스 토피넛 크림</p>
-                    <p>Iced Toffee Nut</p>
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item04.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">토피 넛 크런치 라떼</p>
+                        <p class="eng">Toffee Nut Crunch</p>
+                    </div></a>
                 </div>
-            </div>
-            <div class="item">
-                <div class="img3">
-                    <!-- <img src="img/item03.jpg"> -->
+            </li>
+
+            <li class="row">
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item05.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">7 레이어 가나슈</p>
+                        <p class="eng">7 Layer Ganache</p>
+                    </div></a>
                 </div>
-                <div class="text">
-                    <p>베리 트윙클 모카</p>
-                    <p>Berry Twinkle</p>
+                <div class="item"><a href="#">
+                    <p class="photo"><img src="./img/item06.jpg"></p>
+                    <div class="itemtxt">
+                        <p class="name">체리 그린 생크림</p>
+                        <p class="eng">Cherry Green</p>
+                    </div></a>
                 </div>
-            </div>
-            <div class="item">
-                <div class="img4">
-                    <!-- <img src="img/item04.jpg"> -->
-                </div>
-                <div class="text">
-                    <p>토피넛 크런치 라떼</p>
-                    <p>Toffee Nut Crunch</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img5">
-                    <!-- <img src="img/item05.jpg"> -->
-                </div>
-                <div class="text">
-                    <p>7 레이어 가나슈</p>
-                    <p>7 Layer Ganache</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img6">
-                    <!-- <img src="img/item06.jpg"> -->
-                </div>
-                <div class="text">
-                    <p>체리 그린 생크림</p>
-                    <p>Cherry Green</p>
-                </div>
-            </div>
-        </section>
-    </content>
-    
-    <footer>
-        <h2>공지사항</h2>
-        <ul>
-            <li class="border">추석 연휴 스타벅스 매장 영업시간 변경 안내</li>
-            <li class="border">홈페이지 이용약관 및 스타벅스 카드 이용약관 개정 안내</li>
-            <li class="border">스타벅스커피 코리아 홈페이지/애플리케이션 접속 일시 중단 안내</li>
+            </li>
+            
         </ul>
-    </footer>
-</div>
+    </section>
+
+    <section class="mainBox notice">
+        <h2>공지사항</h2>
+        <div class="more"><a href="#">more</a></div>
+        <ul>
+            <li><a href="#">추석 연휴 스타벅스 매장 영업시간 변경 안내</a></li>
+            <li><a href="#">홈페이지 이용약관 및 스타벅스 카드 이용약관 개정 안내</a></li>
+            <li><a href="#">스타벅스커피 코리아 홈페이지/애플리케이션 접속 일시 중단 안내</a></li>
+        </ul>
+
+    </section>
+    </div>
+    
 </body>
 </html>
